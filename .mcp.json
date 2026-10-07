@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mlb-lhm": {
+      "command": "uv",
+      "args": ["--directory", ".", "run", "lightbox-mcp"]
+    }
+  }
+}

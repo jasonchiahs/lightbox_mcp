@@ -1,0 +1,6 @@
+# Same limits as [tool.black] / [tool.ruff] in pyproject.toml (flake8 cannot read that file).
+[flake8]
+max-line-length = 120
+# E203 (whitespace before ':') and E701 (one-line `...` bodies) conflict with Black's style.
+extend-ignore = E203, E701
+exclude = .venv, build, dist
